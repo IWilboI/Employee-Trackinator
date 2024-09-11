@@ -1,0 +1,22 @@
+{
+  "name": "employee-trackinator",
+  "version": "1.0.0",
+  "description": "management of  the departments, roles, and employees in my company",
+  "main": "index.js",
+  "scripts": {
+    "test": "test-inquirer.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Employee-Trackinator"
+  },
+  "author": "William",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "inquirer": "^8.2.6",
+    "pg": "^8.12.0",
+    "sequelize": "^6.37.3"
+  }
+}

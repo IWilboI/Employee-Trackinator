@@ -1,18 +1,19 @@
-const { sequelize } = require('sequelize');  // This line imports the Sequelize class from the sequelize package
+const { Sequelize } = require('sequelize');  // Import Sequelize
 
-const sequelize = new Sequelize(process.env,BD_NAME, process.env.BD_USER, process.env.DB_PASSWORD,{  // Sets up connection to PostgreSQL database
+// Setup connection to PostgreSQL database
+const sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PASSWORD, {
     host: process.env.DB_HOST,
     dialect: 'postgres',
 });
 
-async function intitializeDataBase() {  // This is an asynchronous function that will be used to test the connection to the database and initialize it
+// Asynchronous function to initialize the database
+async function initializeDatabase() {
     try {
-        await sequelize.authenticate();  // This line attempts to connect to the database using the configuration provided earlier
-        console.log('Database connection has been established successfully.'); // Logs success message on connection to database.
-
+        await sequelize.authenticate();
+        console.log('Database connection has been established successfully.');
     } catch (error) {
-        console.log('Unable to connect to database');  // Logs error message if connection fails
+        console.log('Unable to connect to the database:', error);
     }
 }
 
-module.exports = { sequelize, intitializeDataBase };  // Exports code to be used elsewhere.
+module.exports = { sequelize, initializeDatabase };  // Export the function and sequelize
