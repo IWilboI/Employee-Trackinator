@@ -101,3 +101,5 @@ Inquirer.js
 JavaScript
 License
 This project is licensed under the MIT License.
+
+## Walkthrough vid: https://watch.screencastify.com/v/3UhXsfY5KBdbK4QfvmQr ##
