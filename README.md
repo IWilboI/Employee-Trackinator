@@ -102,4 +102,12 @@ JavaScript
 License
 This project is licensed under the MIT License.
 
-## Walkthrough vid: https://watch.screencastify.com/v/3UhXsfY5KBdbK4QfvmQr ##
+## Walkthrough vid: https://drive.google.com/file/d/1BPrQtow0XwZg6sAT5hF7VBdGgQ7XqV0p/view ##
+
+https://github.com/user-attachments/assets/4801cb10-b2cb-4652-aaa8-fc38e2dff314
+
+
+
+https://github.com/user-attachments/assets/68812938-9600-4aaa-8b58-025974bef485
+
+  ##
