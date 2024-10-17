@@ -16,8 +16,6 @@ Technologies
 
 License
 
-Questions
-
 Installation
 
 
