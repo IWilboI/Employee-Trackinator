@@ -2,7 +2,7 @@
 Description
 Employee Tracker is a command-line application designed to help businesses manage their departments, roles, and employees. With this tool, users can view, add, and update information about employees, roles, and departments in a PostgreSQL database. This application provides a simple interface for managing employee data and maintaining organizational structure.
 
-#Table of Contents#
+# Table of Contentsb #
 
 Installation
 
