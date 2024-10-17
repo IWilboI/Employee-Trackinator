@@ -5,12 +5,19 @@ Employee Tracker is a command-line application designed to help businesses manag
 #Table of Contents#
 
 Installation
+
 Usage
+
 Database Schema
+
 Commands
+
 Technologies
+
 License
+
 Questions
+
 Installation
 
 #Clone the repository to your local machine:#
