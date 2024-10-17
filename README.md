@@ -20,28 +20,50 @@ Questions
 
 Installation
 
+
+
+
+
 #Clone the repository to your local machine:#
 
 git clone <repository-url>
 cd employee-tracker
+
+
+
+
 
 #Install the necessary dependencies:#
 
 npm install
 Make sure PostgreSQL is installed and running on your machine.
 
+
+
+
+
 #Create a PostgreSQL database:#
 
 psql -U postgres
 CREATE DATABASE employee_tracker;
 
+
+
+
+
 #Set up the database schema:#
 
 psql -U postgres -d employee_tracker -f schema.sql
 
+
+
+
 #Seed the database with initial data:#
 
 psql -U postgres -d employee_tracker -f seeds.sql
+
+
+
 
 ##Usage##
 #Start the application:#
@@ -57,6 +79,10 @@ Add a role
 Add an employee
 Update an employee's role
 Exit the application
+
+
+
+
 
 ##Commands##
 #Create Database Schema:#
